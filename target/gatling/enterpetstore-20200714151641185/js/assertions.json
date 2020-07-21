@@ -1,0 +1,10 @@
+{
+  "simulation": "petstore.EnterPetstore",
+  "simulationId": "enterpetstore",
+  "start": 1594739801185,
+  "description": "",
+  "scenarios": ["EnterPetstore"],
+  "assertions": [
+
+  ]
+}

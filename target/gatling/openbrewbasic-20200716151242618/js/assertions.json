@@ -1,0 +1,10 @@
+{
+  "simulation": "starterpackage.OpenBrewBasic",
+  "simulationId": "openbrewbasic",
+  "start": 1594912362618,
+  "description": "",
+  "scenarios": ["find_breweries"],
+  "assertions": [
+
+  ]
+}

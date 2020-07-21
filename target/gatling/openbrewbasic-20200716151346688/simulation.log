@@ -1,0 +1,9 @@
+RUN	starterpackage.OpenBrewBasic	openbrewbasic	1594912426688	 	3.3.1
+USER	find_breweries	2	START	1594912428159	1594912428159
+USER	find_breweries	1	START	1594912428159	1594912428159
+REQUEST	2		all_breweries	1594912428206	1594912429747	KO	substring(Alabama1).find.exists, found nothing
+REQUEST	1		all_breweries	1594912428206	1594912431113	KO	substring(Alabama1).find.exists, found nothing
+REQUEST	2		get_single_brewery	1594912434782	1594912435611	KO	responseTimeInMillis.find.lessThanOrEqual(400), 829 is not less than or equal to 400
+USER	find_breweries	2	END	1594912428159	1594912435616
+REQUEST	1		get_single_brewery	1594912436131	1594912437005	KO	responseTimeInMillis.find.lessThanOrEqual(400), 874 is not less than or equal to 400
+USER	find_breweries	1	END	1594912428159	1594912437006
