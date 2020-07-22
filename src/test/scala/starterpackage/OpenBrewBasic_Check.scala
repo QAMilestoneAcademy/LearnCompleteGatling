@@ -17,7 +17,7 @@ class OpenBrewBasic_Check extends Simulation {
       substring("Alabama").exists))
             .pause(5 seconds)
     .exec(http("get_single_brewery").get("/breweries/44").check(status.is(200)
-      ,responseTimeInMillis.lte(400)))
+      ,responseTimeInMillis.lte(1600)))
 
   //Inject Load
    setUp(scn.inject(atOnceUsers(2))).protocols(httpProtocol)
