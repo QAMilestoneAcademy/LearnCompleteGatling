@@ -8,7 +8,7 @@ import scala.concurrent.duration._
 
 class OpenBrewBasic_Check extends Simulation {
   //Create http protocol configuration
-  val httpProtocol : =http.baseUrl("https://api.openbrewerydb.org")
+  val httpProtocol  =http.baseUrl("https://api.openbrewerydb.org")
 
   //Create Scenario which will send http request
 
