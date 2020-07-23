@@ -1,0 +1,9 @@
+RUN	starterpackage.OpenBrewBasic_Feeder_CSV	openbrewbasic-feeder-csv	1595385742814	 	3.3.1
+USER	find_breweries	1	START	1595385746982	1595385746982
+USER	find_breweries	2	START	1595385746982	1595385746982
+REQUEST	1		all_breweries	1595385747038	1595385749587	OK	 
+REQUEST	2		all_breweries	1595385747046	1595385749645	OK	 
+REQUEST	2		get_single_brewery	1595385754670	1595385755622	KO	responseTimeInMillis.find.lessThanOrEqual(400), 952 is not less than or equal to 400
+REQUEST	1		get_single_brewery	1595385754625	1595385755660	KO	responseTimeInMillis.find.lessThanOrEqual(400), 1035 is not less than or equal to 400
+USER	find_breweries	2	END	1595385746982	1595385755663
+USER	find_breweries	1	END	1595385746982	1595385755664
