@@ -1,0 +1,10 @@
+{
+  "simulation": "starterpackage.OpenBrewBasic_ExitUser",
+  "simulationId": "openbrewbasic-exituser",
+  "start": 1595469423795,
+  "description": "",
+  "scenarios": ["find_breweries"],
+  "assertions": [
+
+  ]
+}
